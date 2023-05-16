@@ -1,0 +1,22 @@
+.paper {
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: stretch;
+    width: -moz-available;
+}
+
+#participants {
+    background-color: transparent;
+}
+
+#participants:hover {
+    background-color: transparent;
+}
+
+#team {
+    background-color: transparent;
+}
+
+#team:hover {
+    background-color: transparent;
+}

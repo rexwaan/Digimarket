@@ -1,0 +1,23 @@
+.org-desc {
+    font-size: 0.85rem !important;
+}
+
+#demo-simple-select-autowidth {
+    padding: 0.75rem !important;
+}
+
+div.DraftEditor-root {
+    padding: 5px 20px;
+    /* border: 0.5px solid #000; */
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div.DraftEditor-editorContainer,
+div.public-DraftEditor-content {
+    height: 100%;
+}
+#menu-{
+    z-index: 4500;
+}

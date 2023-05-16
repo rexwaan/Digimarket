@@ -1,0 +1,246 @@
+.App-class {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header-class {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.otherUser {
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: space-between; */
+  flex-direction: row-reverse;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 170px;
+  /* width: 60%; */
+  /* border:1px solid black; */
+  /* margin-right: 2px; */
+  /* padding: 5px; */
+}
+
+
+
+#anotherUser {
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: space-between; */
+  flex-direction: row;
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+
+  height: 170px;
+  /* color:black; */
+  /* border:1px solid black; */
+  /* margin-left: 2px; */
+}
+
+.sideUser {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 172px;
+  right: 0;
+  width: 286px;
+  /* max-height: 50vh; */
+  /* border:2px solid black; */
+  overflow-y: auto;
+  z-index: 400;
+  /* border:1px solid black; */
+}
+
+.anothersideUser {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  bottom: 172px;
+  left: 0;
+  width: 286px;
+  /* max-height: 50vh; */
+  /* border:2px solid black; */
+  overflow-y: auto;
+  direction: rtl;
+  z-index: 470;
+  /* border:1px solid black; */
+}
+
+.teacherFrame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* border: 1px solid black; */
+  height: 168px;
+  width: 286px;
+  /* height: 25vh;
+  width: 20%; */
+  /* border: 2px solid black; */
+}
+
+.studentFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* border: 1px solid black; */
+  /* height: 25vh;
+  width: 20%; */
+  height: 168px;
+  width: 286px;
+  /* border: 2px solid black; */
+}
+
+.mainComponent {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  width: 100%;
+  background-color: black;
+
+}
+
+.board {
+  width: 100%;
+  height: 100%;
+}
+
+.sketch {
+  width: 100%;
+  height: 100%;
+}
+
+
+.container {
+  position: fixed;
+  width: 95%;
+  height: 95%;
+  background-color: black;
+  border: "2px solid black"
+}
+
+.color-piker-container {
+  text-align: center;
+  display: inline;
+  color: rgb(240, 112, 21);
+}
+
+.brushsize-container {
+  display: inline;
+  color: rgb(224, 97, 6);
+  margin-left: 12px;
+}
+
+.tools-section {
+  text-align: center;
+  background-color: rgb(207, 205, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.board-container {
+  height: 85%;
+  width: 98%;
+  margin: auto;
+  margin-top: 1%;
+  background-color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.flexible-modal {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.flexible-modal-mask {
+  position: fixed;
+  height: 100%;
+  background: rgba(55, 55, 55, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.flexible-modal-resizer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+  margin: 5px;
+  border-bottom: solid 2px #333;
+  border-right: solid 2px #333;
+}
+
+.flexible-modal-drag-area {
+  background: rgba(22, 22, 333, 0.2);
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: move;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#demo-simple-select-autowidth_ {
+  padding: 0.2rem !important;
+}
+
+.css-uk4jy3-MuiFormLabel-root-MuiInputLabel-root {
+  line-height: normal;
+}

@@ -1,0 +1,6 @@
+.container-disabled{
+    pointer-events: none;
+ }
+ 
+ /* .container{
+   /* some styles */

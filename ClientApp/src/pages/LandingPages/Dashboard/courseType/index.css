@@ -1,0 +1,17 @@
+.paper {
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: stretch;
+    width: -moz-available;
+}
+
+.infinite-scroll-component__outerdiv {
+    width: 100%;
+}
+
+.css-1qoy8mm-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+    background-color: #f0f2f5 !important;
+}
+.public-DraftEditorPlaceholder-root{
+    padding-top: 20px;
+}
